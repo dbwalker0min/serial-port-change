@@ -12,6 +12,11 @@ dependencies = [
 readme = "README.md"
 license = { file = "LICENSE" }
 
+[project.urls]
+Homepage = "https://github.com/dbwalker0min/serial-port-change"
+Documentation = "https://github.com/dbwalker0min/serial-port-change/README.md"
+Repository = "https://github.com/dbwalker0min/serial-port-change"
+
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
