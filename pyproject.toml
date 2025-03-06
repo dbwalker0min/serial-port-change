@@ -1,6 +1,6 @@
 [project]
 name = "serial-port-change"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
     {name = "David Walker", email = 'dbwalker0min@gmail.com'},
 ]
