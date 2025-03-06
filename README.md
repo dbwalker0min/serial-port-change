@@ -44,6 +44,14 @@ uvx serial_port_change
 
 The project is built using the `uv` package manager, although it could be easily recasted to Poetry or some other package manager. There are also files to set up the project using PyCharm, although this isn't  required.
 
+It is also setup to use [`bump2version`](https://github.com/c4urself/bump2version) to control the version number. For instance, if the current revision is 1.2.3, you can execute
+
+```sh
+$ uvx bump2version minor
+```
+
+To upgrade to version 1.3.0. You can also vary the `major` and `patch` revision levels. Refer to the `bump2version` documentation for more information.
+
 ## Questions
 
 If anyone has any questions, contact me at dbwalker0min@gmail.com.
